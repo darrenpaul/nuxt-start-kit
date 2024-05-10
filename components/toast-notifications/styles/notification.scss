@@ -1,0 +1,128 @@
+.notification {
+  /* SIZE */
+  /* MARGINS AND PADDING */
+  @apply m-0 sm:m-0 sm:mr-16;
+  /* LAYOUT */
+  @apply fixed top-5 right-0 z-50;
+  /* BORDERS */
+  /* COLORS */
+  /* TEXT */
+  /* ANIMATION AND EFFECTS */
+  @apply cursor-pointer;
+
+  .notification-card {
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    @apply py-3 px-6 mb-3;
+    /* LAYOUT */
+    @apply flex items-center justify-center;
+    /* BORDERS */
+    @apply border-4;
+    /* COLORS */
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+    @apply drop-shadow;
+
+    .notification-message {
+      /* SIZE */
+      /* MARGINS AND PADDING */
+      @apply p-0 m-0;
+      /* LAYOUT */
+      /* BORDERS */
+      /* COLORS */
+      /* TEXT */
+      /* ANIMATION AND EFFECTS */
+    }
+  }
+
+  .notification-error {
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    /* LAYOUT */
+    /* BORDERS */
+    /* COLORS */
+    @apply bg-red-500 border-slate-300;
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+
+    .notification-message {
+      /* SIZE */
+      /* MARGINS AND PADDING */
+      /* LAYOUT */
+      /* BORDERS */
+      /* COLORS */
+      @apply text-white;
+      /* TEXT */
+      /* ANIMATION AND EFFECTS */
+    }
+  }
+
+  .notification-warn {
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    /* LAYOUT */
+    /* BORDERS */
+    /* COLORS */
+    @apply bg-orange-400;
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+  }
+
+  .notification-info {
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    /* LAYOUT */
+    /* BORDERS */
+    /* COLORS */
+    @apply bg-white/[0.8];
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+
+    .notification-message {
+      /* SIZE */
+      /* MARGINS AND PADDING */
+      /* LAYOUT */
+      /* BORDERS */
+      /* COLORS */
+      @apply text-slate-100;
+      /* TEXT */
+      /* ANIMATION AND EFFECTS */
+    }
+  }
+
+  .notification-success {
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    /* LAYOUT */
+    /* BORDERS */
+    /* COLORS */
+    @apply border-slate-300 bg-slate-400;
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+
+    .notification-message {
+      /* SIZE */
+      /* MARGINS AND PADDING */
+      /* LAYOUT */
+      /* BORDERS */
+      /* COLORS */
+      @apply text-slate-100;
+      /* TEXT */
+      /* ANIMATION AND EFFECTS */
+    }
+  }
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}

@@ -1,0 +1,58 @@
+.auth-page {
+    /* SIZE */
+    @apply w-screen h-screen;
+    /* MARGINS AND PADDING */
+    /* LAYOUT */
+    /* BORDERS */
+    /* COLORS */
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+
+    .row {
+        /* SIZE */
+        @apply h-screen;
+        /* MARGINS AND PADDING */
+        /* LAYOUT */
+        @apply grid grid-cols-2 items-center justify-items-center;
+        /* BORDERS */
+        /* COLORS */
+        /* TEXT */
+        /* ANIMATION AND EFFECTS */
+    }
+}
+
+.form-container{
+    /* SIZE */
+    /* MARGINS AND PADDING */
+    @apply p-4;
+    /* LAYOUT */
+    @apply flex flex-col gap-6;
+    /* BORDERS */
+    /* COLORS */
+    /* TEXT */
+    /* ANIMATION AND EFFECTS */
+
+    .form-header{
+        /* SIZE */
+        /* MARGINS AND PADDING */
+        /* LAYOUT */
+        /* BORDERS */
+        /* COLORS */
+        /* TEXT */
+        @apply text-center;
+        /* ANIMATION AND EFFECTS */
+    }
+
+    .form{
+        /* SIZE */
+        /* MARGINS AND PADDING */
+        /* LAYOUT */
+        @apply flex flex-col gap-3;
+        /* BORDERS */
+        /* COLORS */
+        /* TEXT */
+        /* ANIMATION AND EFFECTS */
+    }
+
+}
+
